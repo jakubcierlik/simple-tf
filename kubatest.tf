@@ -68,6 +68,6 @@ variable "project_short_name" {
 
 
 resource "azurerm_resource_group" "rg" {
-  name     = var.provisioner
+  name     = "Cloudify-new"
   location = "westus"
 }
